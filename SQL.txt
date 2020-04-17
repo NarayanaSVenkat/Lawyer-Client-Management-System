@@ -16,6 +16,6 @@
 
 9. alter table cases add constraint foreign key (username) references user_clone(username);
 
-10. insert into user_clone values(1, "Room no: 144, Visvesvaraya Hostel", "venkatshanmukha793@gmail.com", "admin", "9182733499", "admin");
+10. insert into user_clone values(1, "Room no: 0, Visvesvaraya Hostel", "email@gmail.com", "admin", "9988998899", "admin");
 
-11. insert into user_credentials values (1, "admin", "admin", "Room no: 144, Visvesvaraya Hostel", "venkatshanmukha793@gmail.com", "9182733499");
+11. insert into user_credentials values (1, "admin", "admin", "Room no: 0, Visvesvaraya Hostel", "email@gmail.com", "9988998899");
